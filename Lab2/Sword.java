@@ -8,6 +8,10 @@ public class Sword extends Weapon {
         this.sharpness = sharpness;
     }
 
+    public Sword(String name) {
+        super(name);
+    }
+
     public int getSharpness() {
         return sharpness;
     }
