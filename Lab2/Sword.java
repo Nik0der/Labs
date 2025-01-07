@@ -9,7 +9,7 @@ public class Sword extends Weapon {
     }
 
     public Sword(String name) {
-        super(name);
+        super(name,0);
     }
 
     public int getSharpness() {
